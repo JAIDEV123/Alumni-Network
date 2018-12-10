@@ -252,6 +252,10 @@ input placeholder {
 	color: #ffffff!important;
 }
 
+.map {
+	margin-top: 5%;
+}
+
 .footer {
 	background-color: rgba(13,76,66,1);
 	color: #ffffff;
