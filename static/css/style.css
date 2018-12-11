@@ -6,13 +6,17 @@ html, body {
     margin: 0px;
 }
 
+.Navigation-Bar{
+	position:fixed;
+}
+
 .main-nav {
 	background-color: rgba(13,76,66,1);
 	padding-right: 3%;
 	padding-left: 3%;
 	padding-top: 1%;
 	padding-bottom: 1%;
-	position:fixed;
+	
 }
 
 li {
