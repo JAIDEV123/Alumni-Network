@@ -6,9 +6,7 @@ html, body {
     margin: 0px;
 }
 
-.Navigation-Bar{
-	position:fixed;
-}
+
 
 .main-nav {
 	background-color: rgba(13,76,66,1);
