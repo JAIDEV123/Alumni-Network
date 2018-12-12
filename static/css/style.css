@@ -131,6 +131,13 @@ input placeholder {
 	justify-content: center;
 }
 
+@media (max-width: 900px )
+{
+	#removable {
+		display: none;
+	}
+}
+
 .journey {
 	position: relative;
 	width: 100%;
@@ -138,7 +145,7 @@ input placeholder {
 	min-height: 50%;
 	margin: 0px;
 	padding: 0px;
-
+	overflow: hidden;
   	background: url("../img/school-blue.jpg");
 	background: -webkit-gradient(linear, right top, left top, from(rgba(60, 197, 115, 0.7)), color-stop(70%, rgba(60, 197, 115, 0.7)), to(rgba(19, 144, 124, 0))), url("../img/school-blue.jpg");
 	background-position: center;
