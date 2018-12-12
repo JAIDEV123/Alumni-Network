@@ -6,17 +6,17 @@ html, body {
     margin: 0px;
 }
 
-
+.logo {
+	height: 50px;
+	width: 173px;
+}
 
 .main-nav {
 	background-color: rgba(13,76,66,1);
 	padding-right: 3%;
 	padding-left: 3%;
 	padding-top: 1%;
-	padding-bottom: 1%;
-	
-	
-	
+	padding-bottom: 1%;	
 }
 
 li {
@@ -95,12 +95,11 @@ li {
 
 }
 
-input[type=text], input[type=password], input[type=number] {
+input[type=text], input[type=password], input[type=number], input[type="email"] {
     min-width: 120px;
     padding: 12px 20px;
     margin: 8px 0px 8px 0px;
     display: inline-block;
-    border: none;
     box-sizing: border-box;
     font-size: 75%;
 }

@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head>
-    <!--
-    <meta http-equiv="refresh" content="0; URL=welcome.html" />
-  -->
+<head> 
+  	<!--
+  	<meta http-equiv="refresh" content="0; URL=welcome.html" />
+	-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Registration Page for Alumni">
     <meta name="author" content="Jaidev Shriram & Mallika Subramaniam">
 
-    <title>Update page</title>
-    <link rel="shortcut icon" type="image/x-icon" href="./map.png">
-
+	<title>FAIPS Alumni Association</title>
+	<link rel="shortcut icon" type="image/x-icon" href="./map.png">
+    
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="css/update-styles.css">
+    <link href="static/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 
@@ -25,79 +25,71 @@
 
 <body>
 
-  <!-- Navigation Bar-->
+	<!-- Navigation Bar -->
+	
+	<nav class="navbar navbar-expand-lg main-nav ">
+	  <a class="navbar-brand" href="#">
+	  	Image
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+	    <i class="fas fa-bars"></i>
+	  </button>
 
+	  <div class="collapse navbar-collapse" id="navbarToggler">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="#"><i class="fa fa-search"></i>  Lookup</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#"><i class="fa fa-clipboard"></i>  Updates</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#"><i class="fa fa-globe"></i>  Batch Websites</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#"><i class="fas fa-mail-bulk"></i>  Contact</a>
+	      </li>
+	      <li class="nav-item">
+	      	<div class="col-sm-3 col-xs-6">
+	       		<a class="nav-link btn button-register" href="#">Register</a>	      		
+	      	</div>
+	      </li>	      
+	    </ul>
+	  </div>
+	</nav>
 
+	<div class="updateinfo">
+		<div class="container-fluid w-100">
+			<div class="col text-center align-items-center">
+				<form class="" action="mailto:jaidevtrumpet.msm@gmail.com" method="post" enctype="text/plain">
+				  <label for="">Name:</label><input type="text" name="Name" id="name" value="" placeholder="Full Name required" required>
+				  <br>
+				  <label for="">Email:</label><input type="email" name="Email" id="email" value="" placeholder="Registered Email" required> 
+				  <br>
+				  
+				  <h3>Check the information that you want to update:</h3>
 
+				  <table>
+					  <tr>
+						  <td><input type="checkbox" name="" value=""></td>
+						  <td><label for="">Mobile Number</label></td>
+						  <td><input type="tel" name="Mobile" value="" placeholder="With country code" id="mobile"></td>
+					  </tr>
+					  <tr>
+						  <td><input type="checkbox" name="" value=""></td>
+						  <td><label for="">Company</label></td>
+						  <td><input type="text" name="Company" value="" id="company"></td>
+					  </tr>
+				</table>
+					
+					<br>
+					<input type="submit" class="btn button-register" name="" value="SUMBIT">
+				
+				</form>
+			</div>
+		</div>
+	</div>
 
-  <nav class="navbar navbar-expand-lg main-nav ">
-    <a class="navbar-brand" href="#">
-      Image
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-angle-double-down"></i>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarToggler">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa fa-search"></i>  Lookup</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#"><i class="fa fa-clipboard"></i>  Updates</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa fa-globe"></i>  Batch Websites</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fas fa-mail-bulk"></i>  Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="updateinfo">
-  </div>
-
-  <div class="updatecontent">
-
-    <form class="" action="mailto:jaidevtrumpet.msm@gmail.com" method="post" enctype="text/plain">
-      <label for="">Name:</label> <br>
-      <input type="text" name="Name" value=""><br>
-      <label for="">Email:</label> <br>
-      <input type="email" name="Email" value=""> <br>
-      <h4>Check the information that you want to update:</h4>
-
-      <table>
-
-      <tr>
-      <td><input type="checkbox" name="" value=""></td>
-      <td><label for="">Mobile Number</label></td>
-      <td><input type="tel" name="Mobile" value=""></td>
-      </tr>
-
-      <tr>
-      <td><input type="checkbox" name="" value=""></td>
-      <td><label for="">Company</label></td>
-      <td><input type="text" name="Company" value=""></td>
-      </tr>
-
-      <!--<tr>
-      <td><input type="checkbox" name="" value=""></td>
-      <td><label for="">Mobile Number</label></td>
-      <td><input type="tel" name="Mobile" value=""></td>
-    </tr>-->
-
-    </table>
-
-      <br>
-      <input type="submit" name="" value="SUMBIT">
-
-
-
-    </form>
-
-  </div>
   <footer class="small footer text-center">
 		<div class="container-fluid">
 			<p>
@@ -112,5 +104,6 @@
 
     <!-- Plugin JavaScript -->
     <script type="text/javascript" src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
 </body>
 </html>
