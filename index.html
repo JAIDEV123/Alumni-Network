@@ -29,7 +29,7 @@
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
 	      <div class="modal-header bg-light">
-	        <h5 class="modal-title">Register by visiting your batch page.</h5>
+	        <h5 class="modal-title">Visit your batch page.</h5>
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 	          <span aria-hidden="true">&times;</span>
 	        </button>
@@ -41,28 +41,6 @@
 	      </div>
 	      <div class="modal-footer">
 	        <button type="submit" class="btn button-register" onclick="modalredirect()">Go!</button>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-
-		<!-- Modal -->
-	<div class="modal fade" id="BatchModal" tabindex="-1" role="dialog">
-	  <div class="modal-dialog" role="document">
-	    <div class="modal-content">
-	      <div class="modal-header bg-light">
-	        <h5 class="modal-title">Visit your batch's personal site now!</h5>
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	          <span aria-hidden="true">&times;</span>
-	        </button>
-	      </div>
-	      <div class="modal-body">
-	      		Enter your graduation year:
-	      		<br>
-	        	<input type="number" name="year" id="year" required>
-	      </div>
-	      <div class="modal-footer">
-	        <button type="submit" class="btn button-register" onclick="modalredirect()" method="POST">Go!</button>
 	      </div>
 	    </div>
 	  </div>
@@ -106,14 +84,14 @@
 	        <a class="nav-link" href="update.html"><i class="fa fa-clipboard"></i>  Updates</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#" data-toggle="modal" data-target="#BatchModal"><i class="fa fa-globe"></i>  Batch Websites</a>
+	        <a class="nav-link" href="#" data-toggle="modal" data-target="#RegisterModal" id="btn-modal"><i class="fa fa-globe"></i>  Batch Websites</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="contact.html"><i class="fas fa-mail-bulk"></i>  Contact</a>
 	      </li>
 	      <li class="nav-item">
 	      	<div class="col-sm-3 col-xs-6">
-	       		<a class="nav-link btn button-register" href="#" data-toggle="modal" data-target="#RegisterModal">Register</a>	      		
+	       		<a id="btn-modal" class="nav-link btn button-register" href="#" data-toggle="modal" data-target="#RegisterModal">Register</a>	      		
 	      	</div>
 	      </li>	      
 	    </ul>
@@ -146,7 +124,7 @@
 						lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalala lalalalalalalalllalalalalalalall  v lalalala lalalala lalalala lalalala lalalalalalalalllalalalalalalall lalalala lalalalalalalalllalalalalalalall lalalala lalalala 
 					</p>
 					<br>
-					<a class="button-register btn" style="width: 30%;"  href="#" data-toggle="modal" data-target="#RegisterModal">Register</a>
+					<a class="button-register btn" style="width: 30%;"  href="#" data-toggle="modal" data-target="#RegisterModal" id="btn-modal">Register</a>
 				</div>
 			</div>		
 		</div>
@@ -247,7 +225,7 @@
 						P.S you can customize your batch websites too! 
 
 					</p> 
-					<button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#BatchModal">
+					<button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#RegisterModal" id="btn-modal">
 						Explore
 					</button>
 				</div>
