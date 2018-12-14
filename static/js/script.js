@@ -20,7 +20,7 @@ function modalredirect(){
 		$('#RegisterModal').modal('hide');
 		$('#BatchModal').modal('hide');
 		$('#Incorrect').modal();
-		//alert("Incorrect Input Type");
+		//lert("Incorrect Input Type");
 		return false;
 	}
 	else {
