@@ -24,40 +24,6 @@
 </head>
 
 <body>
-
-	<!-- Navigation Bar -->
-	
-	<nav class="navbar navbar-expand-lg main-nav ">
-	  <a href="https://www.google.com" class="logo">
-	  	<img src="./static/logo/logo-white-text.svg">
-	  </a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-	    <i class="fas fa-bars"></i>
-	  </button>
-
-	  <div class="collapse navbar-collapse" id="navbarToggler">
-	    <ul class="navbar-nav ml-auto">
-	      <li class="nav-item">
-	        <a class="nav-link" href="lookup.html"><i class="fa fa-search"></i>  Lookup</a>
-	      </li>
-	      <li class="nav-item active">
-	        <a class="nav-link" href="update.html"><i class="fa fa-clipboard"></i>  Updates</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#" data-toggle="modal" data-target="#BatchModal"><i class="fa fa-globe"></i>  Batch Websites</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="contact.html"><i class="fas fa-mail-bulk"></i>  Contact</a>
-	      </li>
-	      <li class="nav-item">
-	      	<div class="col-sm-3 col-xs-6">
-	       		<a class="nav-link btn button-register" href="#" data-toggle="modal" data-target="#RegisterModal">Register</a>	      		
-	      	</div>
-	      </li>	      
-	    </ul>
-	  </div>
-	</nav>
-
 	<!-- Modal -->
 	<div class="modal fade" id="RegisterModal" tabindex="-1" role="dialog">
 	  <div class="modal-dialog" role="document">
@@ -101,7 +67,58 @@
 	    </div>
 	  </div>
 	</div>
+
+    	<!-- Modal -->
+	<div class="modal" id="Incorrect" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header bg-warning">
+	        <h5 class="modal-title" id="exampleModalLabel">Error!</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+  			Incorrect Batch Year. <br> Batch has either not graduated yet or incompatible input given.
+  			<br>
+  			<i>Contact <a href="#">help.faipsalumni@gmail.com</a> if problem persists.</i>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Navigation Bar -->
 	
+	<nav class="navbar navbar-expand-lg main-nav ">
+	  <a href="https://www.google.com" class="logo">
+	  	<img src="./static/logo/logo-white-text.svg">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+	    <i class="fas fa-bars"></i>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarToggler">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="lookup.html"><i class="fa fa-search"></i>  Lookup</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="update.html"><i class="fa fa-clipboard"></i>  Updates</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#" data-toggle="modal" data-target="#BatchModal"><i class="fa fa-globe"></i>  Batch Websites</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="contact.html"><i class="fas fa-mail-bulk"></i>  Contact</a>
+	      </li>
+	      <li class="nav-item">
+	      	<div class="col-sm-3 col-xs-6">
+	       		<a class="nav-link btn button-register" href="#" data-toggle="modal" data-target="#RegisterModal">Register</a>	      		
+	      	</div>
+	      </li>	      
+	    </ul>
+	  </div>
+	</nav>	
 	
 	<header class="top-index h-50 blocko-top">
 		<div class="container-fluid h-100">

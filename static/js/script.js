@@ -16,6 +16,13 @@ function redirect(){
 
 function modalredirect(){
 			var a = document.getElementById("year").value;
+			if(a<1980 || a>2050 || a.length<4){
+				$('#RegisterModal').modal('hide')
+				$('#BatchModal').modal('hide')
+				$('#Incorrect').modal()
+				//alert("Incorrect Input Type");
+				return false;
+			}
 			console.log(a);
 			var b='./batch/' + a + '.html';
 			console.log(b);
