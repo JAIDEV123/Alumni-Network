@@ -5,6 +5,17 @@ function redirect(){
 				//alert("Incorrect Input Type");
 				return false;
 			}
+			else {
+				console.log(a);
+				var b='./batch/' + a + '.html';
+				console.log(b);
+				window.location=b;
+				return true;
+		}
+}
+
+function modalredirect(){
+			var a = document.getElementById("year").value;
 			console.log(a);
 			var b='./batch/' + a + '.html';
 			console.log(b);

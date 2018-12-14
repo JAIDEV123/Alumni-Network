@@ -57,6 +57,50 @@
 	    </ul>
 	  </div>
 	</nav>
+
+	<!-- Modal -->
+	<div class="modal fade" id="RegisterModal" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header bg-light">
+	        <h5 class="modal-title">Register by visiting your batch page.</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	      		Enter your graduation year:
+	      		<br>
+	        	<input type="number" name="year" id="year" required>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="submit" class="btn button-register" onclick="modalredirect()">Go!</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+		<!-- Modal -->
+	<div class="modal fade" id="BatchModal" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header bg-light">
+	        <h5 class="modal-title">Visit your batch's personal site now!</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	      		Enter your graduation year:
+	      		<br>
+	        	<input type="number" name="year" id="year" required>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="submit" class="btn button-register" onclick="modalredirect()" method="POST">Go!</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 	
 	
 	<header class="top-index h-50 blocko-top">
@@ -89,28 +133,6 @@
 				</div>
 			</div>		
 		</div>
-	</div>
-
-	<!-- Modal -->
-	<div class="modal fade" id="RegisterModal" tabindex="-1" role="dialog">
-	  <div class="modal-dialog" role="document">
-	    <div class="modal-content">
-	      <div class="modal-header bg-light">
-	        <h5 class="modal-title">Register by visiting your batch page.</h5>
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	          <span aria-hidden="true">&times;</span>
-	        </button>
-	      </div>
-	      <div class="modal-body">
-	      		Enter your graduation year:
-	      		<br>
-	        	<input type="number" name="year" id="year" required>
-	      </div>
-	      <div class="modal-footer">
-	        <button type="submit" class="btn button-register" onclick="redirect()">Go!</button>
-	      </div>
-	    </div>
-	  </div>
 	</div>
 	
 	<div class="blocko journey">
@@ -218,28 +240,6 @@
 		</div>
 	</div>
 
-	<!-- Modal -->
-	<div class="modal fade" id="BatchModal" tabindex="-1" role="dialog">
-	  <div class="modal-dialog" role="document">
-	    <div class="modal-content">
-	      <div class="modal-header bg-light">
-	        <h5 class="modal-title">Visit your batch's personal site now!</h5>
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	          <span aria-hidden="true">&times;</span>
-	        </button>
-	      </div>
-	      <div class="modal-body">
-	      		Enter your graduation year:
-	      		<br>
-	        	<input type="number" name="year" id="year" required>
-	      </div>
-	      <div class="modal-footer">
-	        <button type="submit" class="btn button-register" onclick="javascript::redirect()">Go!</button>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-
 	<div class="blocko reunion">
 		<div class="container-fluid w-100">
 			<div class="row w-100">
@@ -272,7 +272,7 @@
 		</div>
 	</footer>
 
-    <script type="text/javascript" src="static/js/script.js"></script>
+    <script type="text/javascript" src="./static/js/script.js"></script>
     <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Montserrat|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
 
 html, body {
     height: 100%;
@@ -313,7 +315,6 @@ input placeholder {
 
 h1 {
 	color: white;
-	font-family: 'Alfa Slab One', cursive;
 }
 
 h3 {
@@ -325,4 +326,20 @@ h3 {
 p{
 	width: 100%;
 }
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: bolder;
+	text-transform: capitalize;
+}
+
+h2, h3, h4, h5 {
+	font-family: 'Roboto Slab', serif !important;
+}
+
 
