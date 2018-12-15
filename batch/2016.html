@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+    <meta http-equiv="refresh" content="0; URL=welcome.html" />
+  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Jaidev Shriram & Mallika Subramanian">
+
+  <title>Batch of 2016</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../logo.jpg">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="../static/css/style.css" rel="stylesheet">
+    <link href="../static/css/batch-style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+	<!-- Modal -->
+	<div class="modal fade" id="RegisterModal" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header bg-light">
+	        <h5 class="modal-title">Visit your batch page.</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	      		Enter your graduation year:
+	      		<br>
+	        	<input type="number" name="year" id="year" required>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="submit" class="btn button-register" onclick="modalbatchredirect()">Go!</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+    	<!-- Modal -->
+	<div class="modal" id="Incorrect" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header bg-warning">
+	        <h5 class="modal-title" id="exampleModalLabel">Error!</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+  			Incorrect Batch Year. <br> Batch has either not graduated yet or incompatible input given.
+  			<br>
+  			<i>Contact <a href="#">help.faipsalumni@gmail.com</a> if problem persists.</i>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Navigation Bar -->
+
+	<nav class="navbar navbar-expand-lg main-nav ">
+	  <a href="https://www.google.com" class="logo">
+	  	<img src="../static/logo/logo-white-text.svg">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+	    <i class="fas fa-bars"></i>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarToggler">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="lookup.html"><i class="fa fa-search"></i>  Lookup</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="update.html"><i class="fa fa-clipboard"></i>  Updates</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#" data-toggle="modal" data-target="#RegisterModal" id="btn-modal"><i class="fa fa-globe"></i>  Batch Websites</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="contact.html"><i class="fas fa-mail-bulk"></i>  Contact</a>
+	      </li>
+	      <li class="nav-item">
+	      	<div class="col-sm-3 col-xs-6">
+	       		<a id="btn-modal" class="nav-link btn button-register" href="#" data-toggle="modal" data-target="#RegisterModal">Register</a>
+	      	</div>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+  <header class="batch-template h-50">
+    <div class="container-fluid h-100">
+      <div class="row h-100">
+        <div class="col align-self-center text-center">
+          <h1>
+            Batch of 2016
+          </h1>
+          <i>Registration Form at bottom of page</i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="information w-100 blocko">
+      <div class="container-fluid w-100">
+        <div class="row h-100">
+          <div class="col align-self-center">
+            <p>
+              Want to place some information regarding a reunion or just some random memories you have of your batch? Contact
+              <a href="#">admin.faipsalumni@gmail.com</a>
+            </p>
+          </div>
+
+          <div class="col align-self-center text-center">
+            <h2>
+              No alumni co-ordinators assigned yet
+            </h2>
+            <p>
+              <i>Consider discussing with your batch and get back to us!</i>
+            </p>
+          </div>
+        </div>
+      </div>
+  </div>
+
+   <div class="row form w-100">
+	   <div class="col text-center align-self-center">
+	        <!-- Content of form goes here! -->
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeKm9cBwXS9vOYTx4LjxHI7A75Gmy1TtJesU_CJzaK4Xqj_Ug/viewform?embedded=true" width="640" height="1900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+     </div>
+	</div>
+
+  <footer class="small footer text-center">
+    <div class="container-fluid">
+      <p>
+        Copyright Fahaheel Al-Watanieh Indian Private School, under Al-Rayan Education
+      </p>
+    </div>
+  </footer>
+
+    <script type="text/javascript" src="../static/js/script.js"></script>
+    <script type="text/javascript" src="../vendor/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script type="text/javascript" src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+</body>
+
+</html>
