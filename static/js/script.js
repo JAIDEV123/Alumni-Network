@@ -28,7 +28,7 @@ function modalredirect(){
 	}
 	else {
 		console.log(a);
-		var b='./batch/' + a + '.html';
+		var b='./' + a + '.html';
 		console.log(b);
 		window.location=b;
 		return true;
@@ -46,7 +46,7 @@ function modalbatchredirect(){
 	}
 	else {
 		console.log(a);
-		var b='./' + a + '.html';
+		var b='./batch/' + a + '.html';
 		console.log(b);
 		window.location=b;
 		return true;
